@@ -246,7 +246,7 @@ text-align:center;
 .section-art{
 
 width: 100vw;
-height: 500vh;
+height: 460vh;
 color: aliceblue;
 display:grid;
 align-items: center;
@@ -255,7 +255,7 @@ justify-content: center;
 .section-one{
 
     width: 100vw;
-    height: 500vh;
+    height: 460vh;
     color: aliceblue;
     display:grid;
 margin-top:15vh ;
