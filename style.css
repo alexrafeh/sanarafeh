@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:ital,wght@1,100&family=Unbounded:wght@200;300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body{
+width: 100vw;
+height: 600vh;
+background-color: rgb(255, 235, 214);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+padding-bottom: 10vh;
+
+
+}
+
+.body3{
+    width: 100vw;
+height: 40vh;
+background-color: rgb(226, 248, 253);
+min-height: 40vh;
+
+z-index: 0;
+
+position: relative;
+
+
+}
+
+.more{
+    height: 300vh;
+}
+
+
+
+.body-contact{
+    width: 100vw;
+height: 160vh;
+background-color: rgb(226, 248, 253);
+background-position: center;
+background-size: cover;
+color: black;
+position: relative;
+padding-bottom: 30vh;
+min-height:80vh ;
+}
+
+
+footer{
+    color: white;
+}
+
+.b{
+    color: white;
+}
+
+
+.join-footer{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+
+    justify-content:space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+
+
+
+.join-info{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    
+    width: 100%;
+}
+
+
+
+.join-info2{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    
+    width: 100%;
+}
+
+
+
+
+
+
+.join-media{
+    display: flex;
+   align-items: center;
+
+    
+}
+
+span{
+    margin: 10px;
+    
+}
+
+.media-join{
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contact{
+   
+   background-color: black;
+    padding: 40px;
+   
+    width: 100vw;
+    margin-top:10vh;
+    color: white;
+    font-size: 4rem;
+}
+
+
+
+.telephone{
+    margin-top: 5rem;
+padding: 40px;
+border: 3px solid black;
+width: 40vw;
+margin: 5vh auto;
+}
+
+.Email{
+    margin-top: 5rem;
+    padding: 30px;
+border: 3px solid black;
+width: 40vw;
+margin: 5vh auto;
+}
+
+.media{
+    margin-top: 5rem;
+    padding: 30px;
+    border: 3px solid black;
+    width: 40vw;
+margin: 5vh auto;
+}
+
+.about{
+    color: black;
+    width: 50vw;
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin-top: 15vh;
+   margin-bottom: 0%;
+   margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+.about1{
+color: black;
+    font-size: 4rem;
+    margin-bottom: 40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.all-content2{
+    color: black;
+}
+
+
+
+.all-content{
+    width: 100%;
+    height: 100vh;
+
+
+
+text-align: center;
+
+
+
+}
+
+
+.all-content2{
+    width: 100%;
+    height: 80vh;
+align-items: center;
+justify-content: center;
+margin-top: 25vh;
+text-align:center;
+}
+
+.insta{
+    height: 40px;
+    width: 40px;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+
+.section-art{
+
+width: 100vw;
+height: 500vh;
+color: aliceblue;
+display:grid;
+align-items: center;
+justify-content: center;
+ }
+.section-one{
+
+    width: 100vw;
+    height: 500vh;
+    color: aliceblue;
+    display:grid;
+margin-top:60px ;
+justify-content: center;
+align-items: center;
+}
+
+
+.section-crt{
+
+    width: 100vw;
+    height: 630vh;
+    color: aliceblue;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+     }
+
+
+img{
+    height: 500px;
+    width:550px ;
+    margin-top: 50px ;
+    border-radius: 10px;
+    padding: 7px;
+
+}
+
+
+.info-bee{
+    
+}
+
+
+.painting-one{
+    height: 130vh;
+    width: 75vw;
+    border: 3px solid black;
+text-align: center;
+
+
+border-radius: 10px;
+
+}
+
+
+.painting-two{
+    height: 130vh;
+    width: 75vw;
+    text-align: center;
+    border: 3px solid black;
+  
+    border-radius: 10px;
+}
+
+
+.painting-three{
+    height: 130vh;
+    width: 75vw;
+    text-align: center;
+    border: 3px solid black;
+    
+    border-radius: 10px;
+}
+
+
+.painting-four{
+    height: 130vh;
+    width: 75vw;
+    text-align: center;
+    border: 3px solid black;
+    
+    border-radius: 10px;
+}
+
+
+.painting-five{
+    height: 130vh;
+    width: 75vw;
+    text-align: center;
+    border: 3px solid black;
+   
+    border-radius: 10px;
+}
+
+
+.painting-six{
+    height: 130vh;
+    width: 75vw;
+    text-align: center;
+    border: 3px solid black;
+    
+    border-radius: 10px;
+}
+
+nav{
+    height:10vh;
+    width: 100vw;
+    background-color:rgb(239, 250, 244);
+    position:fixed;
+    top: 0%;
+    z-index: 100;
+}
+
+ 
+
+.navigation{
+justify-content: space-around;
+display: flex;
+margin: 18px 0;
+}
+
+
+
+
+.spacing{
+    margin-right: 420px;
+    font-size: 2rem;
+    margin-top:-10px ;
+}
+
+
+.name,.about-me,.FAQ{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.FAQ{
+    margin-right: 140px;
+}
+
+.about-me{
+    margin-left: 100px;
+}
+
+
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+ a {
+    list-style-type: none;
+text-decoration: none;
+color: black;
+
+}
+
+
+
+p{
+    padding: 4px;
+    color: black;
+    font-family: 'Unbounded', cursive;
+
+    font-weight: 300;
+}
+
+
+a:hover{
+    color: rgba(255, 0, 200,0.5);
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: black;
+}
+
+
+
+
+
+.images{
+    display: flex;
+ justify-content: center;
+}
+
+
+
+
+.btn{
+    padding: 20px 5px;
+   
+   
+   color:black;
+   text-align: center;
+    border: 3px solid black;
+    margin-left: 50%;
+    border-radius: 7px;
+    transform: translateX(-50%);
+    
+}
+
+.btn2{
+    padding: 7px 5vw;
+   
+
+   color:black;
+
+    border: 3px solid black;
+    
+    border-radius: 3px;
+
+}
+
+.i{
+height: 20vh;
+width: 75vw;
+justify-content: center;
+align-items: center;
+margin-top:30px ;
+}
+
+
+
+@media screen and ( max-width:1000px ){
+
+    .section-art{
+height: 300vh;
+margin-top: 15vh;
+    }
+
+    .section-one{
+        height: 300vh;
+    }
+    
+    .mob{
+        height: 37vh;
+        width: 67vw;
+    }
+
+    img{
+        height: 40vh;
+        width: 67vw;
+    }
+
+
+    .painting-one{
+        height: 82vh;
+        width: 80vw;
+    }
+
+    
+    .painting-two{
+        height: 84vh;
+        width: 80vw;
+    }
+
+    
+    .painting-three{
+        height: 82vh;
+        width: 80vw;
+    }
+
+    
+    .painting-four{
+        height: 82vh;
+        width: 80vw;
+    }
+
+    
+    .painting-five{
+        height: 82vh;
+        width: 80vw;
+    }
+
+    
+    .painting-six{
+        height: 82vh;
+        width: 80vw;
+    }
+
+.info-bee{
+    margin: 5px;
+}
+
+    .FAQ{
+        margin:0;
+        font-size: 0.7rem;
+    }
+    
+    .about-me{
+        margin:0px;
+        font-size: 0.7rem;
+    }
+    
+.spacing{
+    margin: 0;
+}
+
+.name{
+    font-size: 1.2rem;
+}
+
+.about-info{
+    width: 80vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 40vh;
+}
+
+.body3{
+    
+    height: 90vh;
+
+}
+
+.about{
+    height: 40vh;
+}
+
+.join-info{
+    position: absolute;
+    bottom: 0%;
+    
+}
+
+.join-media{
+    margin: 0%;
+}
+
+.body-contact{
+    height: 160vh;
+}
+
+.contact{
+    font-size: 3rem;
+
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.telephone{
+    width: 80vw;
+}
+
+.media{
+    width: 80vw;
+}
+
+.Email{
+    width: 80vw;
+}
+
+.about1{
+    font-size: 2rem;
+    width: 100%;
+    margin: 50px 50%;
+}
+
+}
+
+
+
+
