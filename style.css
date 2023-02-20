@@ -276,7 +276,7 @@ align-items: center;
     display:grid;
     align-items: center;
     justify-content: center;
-    margin-top:20vh;
+   
      }
 
 
@@ -292,6 +292,19 @@ img{
 
 .info-bee{
     
+}
+
+
+
+.painting-cne{
+    height: 140vh;
+    width: 75vw;
+    border: 3px solid black;
+text-align: center;
+
+ margin-top:20vh;
+border-radius: 10px;
+
 }
 
 
