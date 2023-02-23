@@ -242,7 +242,7 @@ a:hover{
 
     .img{
         height: 40vh;
-        width: 100%;
+        width: 100vw;
         align-items: center;
         justify-content: center;
         display: block;
@@ -266,7 +266,7 @@ a:hover{
 }
 
 .pos{
-    width: 100%;
+    width: 100vw;
 }
 
     .shipping{
