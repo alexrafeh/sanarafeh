@@ -629,6 +629,7 @@ h1{
     opacity: 1;
     color: rgb(255, 255, 255);
     background: rgb(255, 23, 73);
+     padding: 10px 40px;
 }
 
 body{
