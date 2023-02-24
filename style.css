@@ -52,7 +52,7 @@ position: relative;
 }
 
 .more{
-    height: 300vh;
+    max-height: 100vh;
 }
 
 
